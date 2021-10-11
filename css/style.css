@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+
+
+/*----------header----------*/
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(60, 61, 66);
+  padding: 20px 70px;
+}
+
+nav ul li {
+  font-size: 20px;
+}
+
+nav ul li :hover {
+  color: rgb(168, 168, 168);
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*----------top----------*/
+#top {
+  height: 700px;
+  background: url(../img/top.png) no-repeat center;
+  background-size: cover;
+}
+
+.top_wrap{
+  float: right;
+  margin: 270px 100px;
+}
+
+.top_wrap h1 {
+  font-size: 80px;
+  color: #fff;
+  font-family: "Shippori Mincho B1", serif;
+  text-shadow: #fff 0 0 15px;
+  padding-bottom: 20px;
+}
+
+.top_wrap p{
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Shippori Mincho B1", serif;
+  text-shadow: #fff 0 0 15px;
+}
+
+/*----------about----------*/
+#service {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.section_title {
+  font-size: 55px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #000;
+  display: inline-block;
+  border-bottom: #000 solid 1px;
+}
+
+.section_title_border {
+  display: flex;
+  justify-content: center;
+}
+
+.service_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service_left img {
+  width: 80%;
+  height: auto;
+}
+
+.service_right h3 {
+  color: rgb(238, 158, 158);
+  font-size: 38px;
+  padding: 20px 0;
+}
+
+.service_right ul li {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+/*----------news----------*/
+#news {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.news_wrap {
+  text-align: center;
+  border: #ddd solid 3px;
+}
+
+.news_wrap p {
+  line-height: 2.5;
+}
+
+/*----------price----------*/
+#price {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.price_wrap table {
+  border: double #000 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.price_wrap table tr {
+  border: solid #000 2px;
+  padding: 10px;
+}
+
+.price_wrap table th {
+  border: solid #000 2px;
+  padding: 10px;
+  background-color: rgb(250, 231, 125);
+}
+
+.price_wrap table td {
+  border: solid #000 2px;
+  padding: 10px;
+}
+
+.price_cell {
+  background-color: rgb(250, 231, 125);
+}
+
+/*----------contact----------*/
+#contact {
+  background:#ddd
+}
+
+#contact h2 {
+  padding: 40px 0;
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+}
+
+input::placeholder {
+  color: rgb(172, 172, 172);
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button_submit {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 50px;
+  background-color: #666;
+  margin: 50px 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.button:hover {
+  background-color: #333;
+  color: rgb(199, 199, 199);
+}
+
+/*----------footer----------*/
+#footer {
+  background-color: #444;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
